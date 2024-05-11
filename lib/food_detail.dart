@@ -15,7 +15,7 @@ class DetailFood extends StatelessWidget {
             children: [
               Container(
                 padding: EdgeInsets.all(20),
-                color: Color(0xffFBCEDC),
+                color: Color(0xffFEE227),
                 child: Column(
                   children: [
                     Row(
@@ -92,7 +92,7 @@ class DetailFood extends StatelessWidget {
                           ),
                           Container(
                             decoration: BoxDecoration(
-                              color: Color(0xffFF5F99),
+                              color: Color(0xffFEE227),
                               borderRadius: BorderRadius.circular(15),
                             ),
                             child: BuyFood(),
@@ -134,7 +134,7 @@ class DetailFood extends StatelessWidget {
           onPressed: () {},
           child: Text("Buy Now"),
           style: ElevatedButton.styleFrom(
-            backgroundColor: Color(0xffFF5F99),
+            backgroundColor: Color(0xffFEE227),
             padding: EdgeInsets.all(25),
             elevation: 0,
             shape: RoundedRectangleBorder(

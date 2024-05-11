@@ -39,7 +39,7 @@ class HomeScreen extends StatelessWidget {
                           child: Image.asset("assets/images/girl.png"),
                         ),
                         decoration: BoxDecoration(
-                          color: Color(0xffFF5F99),
+                          color: Color(0xffFEE227),
                           borderRadius: BorderRadius.circular(10),
                         ),
                       ),
@@ -173,7 +173,7 @@ class HomeScreen extends StatelessWidget {
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20),
                           ),
-                          color: Color(0xffFBCEDC),
+                          color: Color(0xffFEE227),
                           child: Padding(
                             padding: const EdgeInsets.all(15.0),
                             child: Column(
@@ -275,7 +275,7 @@ class HomeScreen extends StatelessWidget {
                               padding: EdgeInsets.all(10),
                               margin: EdgeInsets.only(bottom: 13),
                               decoration: BoxDecoration(
-                                color: Color(0xffFBCEDC),
+                                color: Color(0xffFEE227),
                                 borderRadius: BorderRadius.circular(15),
                               ),
                               child: Center(
